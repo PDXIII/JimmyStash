@@ -1,4 +1,7 @@
 {
+DisplayStrings = (
+dddddddd
+);
 date = "2013-05-15 12:53:49 +0000";
 designer = "Pete Sekan";
 designerURL = "http://about.me/pdxiii";
@@ -5751,7 +5754,7 @@ unicode = 00E7;
 },
 {
 glyphname = "d";
-lastChange = "2013-05-28 12:26:31 +0100";
+lastChange = "2013-06-03 12:16:59 +0100";
 layers = (
 {
 layerId = "1E238986-8A4D-4620-9F99-918EE406194F";
@@ -5774,12 +5777,12 @@ nodes = (
 closed = 1;
 nodes = (
 "95 -16 LINE",
-"-41 95 OFFCURVE",
-"-30 297 OFFCURVE",
-"99 370 CURVE",
-"78 335 LINE",
-"27 239 OFFCURVE",
-"55 111 OFFCURVE",
+"10 58 OFFCURVE",
+"-39 214 OFFCURVE",
+"45 319 CURVE",
+"102 355 LINE",
+"40 262 OFFCURVE",
+"40 114 OFFCURVE",
 "124 36 CURVE"
 );
 }
