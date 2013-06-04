@@ -1,0 +1,247 @@
+@font-face {
+  font-family: 'JimmyStash';
+  src: url('../webfonts/JimmyStash-Regular.eot');
+  src: url('../webfonts/JimmyStash-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+   url('../webfonts/JimmyStash-Regular.woff') format('woff'), /* Modern Browsers */
+   url('../webfonts/JimmyStash-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+   url('../webfonts/JimmyStash-Regular.svg#74c8e843b8349e4903d4c1b8ba504016') format('svg');
+  font-style: normal;
+  font-weight: 400;/* IE9 Compat Modes */
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'JimmyStash Bold';
+  src: url('../webfonts/JimmyStash-Bold.eot');
+  src: url('../webfonts/JimmyStash-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+   url('../webfonts/JimmyStash-Bold.woff') format('woff'), /* Modern Browsers */
+   url('../webfonts/JimmyStash-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+   url('../webfonts/JimmyStash-Bold.svg#deed2371ab0052ec7aa9c1ad09739e4e') format('svg');
+  font-style: normal;
+  font-weight: 700;/* IE9 Compat Modes */
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'JimmyStash Light';
+  src: url('../webfonts/JimmyStash-Light.eot');
+  src: url('../webfonts/JimmyStash-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+   url('../webfonts/JimmyStash-Light.woff') format('woff'), /* Modern Browsers */
+   url('../webfonts/JimmyStash-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+   url('../webfonts/JimmyStash-Light.svg#258620b0d43a261fa9c44ab1f940f2e9') format('svg');
+  font-style: normal;
+  font-weight: 200;/* IE9 Compat Modes */
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'LigatureSymbols';
+  src: url('../webfonts/LigatureSymbols-2.11.eot');
+  src: url('../webfonts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'), url('../webfonts/LigatureSymbols-2.11.woff') format('woff'), url('../webfonts/LigatureSymbols-2.11.ttf') format('truetype'), url('../webfonts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-feature-settings: "liga" 1, "dlig" 1;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga" 1, "dlig" 1;
+  -o-font-feature-settings: "liga" 1, "dlig" 1;
+  font-feature-settings: "liga" 1, "dlig" 1;
+}
+.lsf,
+.lsf-icon:before {
+  font-family: 'LigatureSymbols';
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-font-feature-settings: "liga" 1, "dlig" 1;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga" 1, "dlig" 1;
+  font-feature-settings: "liga" 1, "dlig" 1;
+}
+.lsf-icon:before {
+  content: attr(title);
+  margin-right: 0.3em;
+  font-size: 130%;
+}
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.sticker-shadow {
+  -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+*,
+*:before,
+*:after {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+html,
+body,
+#hello {
+  height: 100%;
+  position: static;
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  margin: 0;
+}
+p {
+  font-family: 'JimmyStash';
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+}
+.buttonBtn {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+  font-size: 4em;
+  line-height: 1.15em;
+  height: 1.2em;
+  width: 1.2em;
+  float: right;
+}
+#downloadBtn {
+  color: #c9b71a;
+  border-top: solid 2px #f6f0b9;
+  border-left: solid 2px #f6f0b9;
+  border-right: solid 2px #eadc5f;
+  border-bottom: solid 2px #eadc5f;
+  background-color: #f0e68c;
+  box-shadow: inset 10px 10px 10px #f9f5d0, inset -10px -10px 10px #e7d748, 5px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: -0.2em;
+  margin-right: 0.5em;
+}
+#aboutBtn {
+  color: #098ddf;
+  border-top: solid 2px #b8e2fc;
+  border-left: solid 2px #b8e2fc;
+  border-right: solid 2px #56baf8;
+  border-bottom: solid 2px #56baf8;
+  background-color: #87cefa;
+  box-shadow: inset 10px 10px 10px #d0ecfd, inset -10px -10px 10px #3eb0f7, 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+#githubBtn {
+  color: #006633;
+  border-top: solid 2px #33ff99;
+  border-left: solid 2px #33ff99;
+  border-right: solid 2px #00cc66;
+  border-bottom: solid 2px #00cc66;
+  background-color: #00ff7f;
+  box-shadow: inset 10px 10px 10px #4dffa5, inset -10px -10px 10px #00b359, 5px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: -0.3em;
+}
+#closeBtn {
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+  padding: 0;
+  position: static;
+  right: 1em;
+}
+#hello {
+  padding-top: 5em;
+  background-image: url('../images/fabric01.jpeg');
+  background-repeat: repeat;
+}
+#sticker {
+  width: 80%;
+  max-width: 530px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 2em;
+  background-color: white;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#sticker h2 {
+  line-height: 1em;
+  color: white;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#sticker h1 {
+  font-family: 'JimmyStash';
+  line-height: 0.7em;
+}
+#sticker h3 {
+  font-family: 'JimmyStash Bold';
+}
+#sticker .fittext01 {
+  padding-top: 0.2em;
+}
+#sticker .fittext02 {
+  margin-bottom: 0.3em;
+}
+#sticker .fittext03 {
+  padding-top: 0.1em;
+  margin-left: -0.9em;
+}
+#sticker .fittext04 {
+  margin-left: 0.7em;
+}
+#sticker .spacer,
+#sticker .topSpacer {
+  overflow: hidden;
+  min-height: 2em;
+  background-color: red;
+}
+#about {
+  background-image: url(../images/paper.png);
+  background-repeat: repeat;
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  max-height: 100%;
+  right: 2em;
+  left: 2em;
+  display: none;
+  overflow: auto;
+  padding: 1em 1em 0 1em;
+  -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#about h2 {
+  font-family: 'JimmyStash Bold';
+  font-size: 4em;
+  padding-right: 1em;
+}
+#about p {
+  font-size: 3em;
+}

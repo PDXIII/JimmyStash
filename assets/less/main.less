@@ -1,0 +1,215 @@
+
+@import "fonts.less";
+@import "grid.less";
+@import "elements-master/elements.less";
+
+// ----------------------------semantic.gs grid.less----------------------------
+@columns: 12;
+@column-width: 60;
+@gutter-width: 20;
+@total-width: 100%;
+
+// -------------------less variables for media queries bubbling--------------------
+//mobile first
+@mediumScreen:~"only screen and (min-width: 768px) and (max-width: 1023px)";
+@largeScreen:~"only screen and (min-width: 1024px) and (max-width: 1599px)";;
+@xlargeScreen:  ~"only screen and (min-width: 1600px)";
+
+
+@retina:  ~"only screen and (-webkit-min-device-pixel-ratio: 2)     ",
+          ~"only screen and (   min--moz-device-pixel-ratio: 2)     ",
+          ~"only screen and (     -o-min-device-pixel-ratio: 2/1)   ",
+          ~"only screen and (        min-device-pixel-ratio: 2)     ",
+          ~"only screen and (                min-resolution: 192dpi)",
+          ~"only screen and (                min-resolution: 2dppx) "; 
+
+@upright: ~"(orientation: portrait)";
+
+@laylow:  ~"(orientation: landscape)";
+
+// --------------------------------own variables--------------------------------
+
+@myOrange: #f66a25;
+@grayDarker: #333333;
+@grayLighter: #eeeeee;
+
+@textColor: @grayDarker;
+
+
+
+// own variables
+@transWhite: rgba(255,255,255,0.7);
+@transYellow: rgba(255, 196, 13, 0.7);
+@transOrange: rgba(248, 148, 6, 0.7);
+@blue: #0064cd;
+@yellow: #ffc40d;
+@orange: #f89406;
+
+
+// own mixins
+
+.letterPressShadow (@color) {
+  text-shadow: -1px -1px 1px darken(@color, 15%), 1px 1px 1px lighten(@color, 15%);
+}
+
+.buttonFX (@color) {
+  color: darken(@color, 30%);
+  border-top: solid 2px lighten(@color, 10%);
+  border-left: solid 2px lighten(@color, 10%);
+  border-right: solid 2px darken(@color, 10%);
+  border-bottom: solid 2px darken(@color, 10%);
+  background-color: @color;
+  box-shadow: inset 10px 10px 10px lighten(@color, 15%),
+              inset -10px -10px 10px darken(@color, 15%),
+              5px 5px 10px rgba(0,0,0,0.2);
+  // .drop-shadow();
+}
+
+.sticker-shadow {
+  -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0,0,0,0.2);
+  -moz-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+*, *:before, *:after{
+  .box-sizing(border-box);
+  position: relative;
+}
+
+html, body, #hello{
+  height: 100%;
+  position: static;
+  overflow: hidden;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: normal;
+  font-style: normal;
+  // color: @blue;
+  text-align: center; 
+  margin: 0;
+}
+
+p{
+  font-family: 'JimmyStash';
+  font-weight: normal;
+  font-style: normal;
+  // color: @blue;
+  // text-align: center; 
+  margin: 0;
+}
+
+.buttonBtn{
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+  font-size: 4em;
+  line-height: 1.15em;
+  height: 1.2em;
+  width: 1.2em;
+  float: right;
+}
+
+#downloadBtn{
+  .buttonFX(khaki);
+  margin-top: -0.2em;
+  margin-right: 0.5em;
+}
+#aboutBtn{
+  .buttonFX(lightskyblue);
+  // margin-top: 0.5em;
+
+}
+#githubBtn{
+  .buttonFX(springgreen);
+  margin-top: -0.3em;
+}
+
+#closeBtn{
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+  padding: 0;
+  position: static;
+  right: 1em;
+}
+
+#hello{
+  padding-top: 5em;
+  background-image:url('../images/fabric01.jpeg');
+  background-repeat:repeat;
+}
+
+#sticker{
+  width: 80%;
+  max-width: 530px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 2em;
+  background-color: white;
+  overflow: hidden;
+  .sticker-shadow;
+  h2{
+    line-height: 1em;
+    color: white;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h1{
+    font-family: 'JimmyStash';
+    line-height: 0.7em;
+  }
+  h3{
+    font-family: 'JimmyStash Bold';
+  }
+  .fittext01{
+    padding-top: 0.2em;
+  }
+  .fittext02{
+    margin-bottom: 0.3em;
+  }
+  .fittext03{
+    padding-top: 0.1em;
+    margin-left: -0.9em;
+  }
+  .fittext04{
+    margin-left: 0.7em;
+  }
+  .spacer, .topSpacer{
+    overflow: hidden;
+    min-height: 2em;
+    background-color: red;
+  }
+}
+
+#about{
+  background-image: url(../images/paper.png);
+  background-repeat:repeat;
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  max-height: 100%;
+  right: 2em;
+  left: 2em;
+  display: none;
+  overflow: auto;
+  padding: 1em 1em 0 1em;
+  .sticker-shadow;
+  h2{
+    font-family: 'JimmyStash Bold';
+    font-size: 4em;
+    padding-right: 1em;
+  }
+
+  p{
+    font-size: 3em;
+
+  }
+}
