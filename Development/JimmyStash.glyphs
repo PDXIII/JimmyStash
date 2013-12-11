@@ -1,4 +1,7 @@
 {
+DisplayStrings = (
+PiPj
+);
 date = "2013-05-15 12:53:49 +0000";
 designer = "Pete Sekan";
 designerURL = "http://about.me/pdxiii";
@@ -6642,7 +6645,7 @@ unicode = 0068;
 },
 {
 glyphname = "i";
-lastChange = "2013-07-02 20:46:09 +0100";
+lastChange = "2013-12-11 20:05:35 +0100";
 layers = (
 {
 layerId = "1E238986-8A4D-4620-9F99-918EE406194F";
@@ -6664,14 +6667,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"49 557 LINE",
-"58 517 OFFCURVE",
-"64 478 OFFCURVE",
-"67 439 CURVE",
-"14 396 LINE",
-"12 436 OFFCURVE",
 "5 476 OFFCURVE",
-"-3 516 CURVE"
+"12 436 OFFCURVE",
+"14 396 CURVE",
+"67 439 LINE",
+"64 478 OFFCURVE",
+"58 517 OFFCURVE",
+"49 557 CURVE",
+"-3 516 LINE"
 );
 }
 );
@@ -6714,14 +6717,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"58 567 LINE",
-"67 527 OFFCURVE",
-"73 488 OFFCURVE",
-"76 449 CURVE",
-"-7 396 LINE",
-"-9 436 OFFCURVE",
 "-16 476 OFFCURVE",
-"-24 516 CURVE"
+"-9 436 OFFCURVE",
+"-7 396 CURVE",
+"76 449 LINE",
+"73 488 OFFCURVE",
+"67 527 OFFCURVE",
+"58 567 CURVE",
+"-24 516 LINE"
 );
 }
 );

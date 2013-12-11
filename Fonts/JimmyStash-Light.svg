@@ -2,12 +2,12 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg">
 <metadata>
-Created by FontPrep 20130207 at Thu Jul  4 13:45:54 2013
- By Pete Sekan
+Created by FontPrep 20130207 at Wed Dec 11 21:13:37 2013
+ By PDXIII
 copyright missing
 </metadata>
 <defs>
-<font id="258620b0d43a261fa9c44ab1f940f2e9" >
+<font id="258620b0d43a261fa9c44ab1f940f2e9" horiz-adv-x='1024' >
   <font-face 
     font-family="JimmyStash-Light"
     font-weight="300"
@@ -179,7 +179,7 @@ q-55 -158 -178 -202q-100 83 -142 201q-82 232 49 417q60 86 148 111q55 15 98 -53z"
     <glyph glyph-name="h" unicode="h" horiz-adv-x="538" 
 d="M532 0l-135 -63q-50 98 -68 248t-28 300q-8 -29 -43 -148t-65 -265l-119 -72q-35 129 -68 572t-65 575l86 82q37 -35 57 -197t38 -415t34 -371q82 246 108 454l96 58q40 -31 58 -177q18 -147 42 -323t72 -258z" />
     <glyph glyph-name="i" unicode="i" horiz-adv-x="268" 
-d="M143 803q11 -61 51 -337t78 -417l-106 -88q-41 125 -79 409t-50 351zM100 1141q29 -123 37 -242l-108 -88q-4 96 -35 246z" />
+d="M143 803q11 -61 51 -337t78 -417l-106 -88q-41 125 -79 409t-50 351zM-6 1057l106 84q29 -123 37 -242l-108 -88q-4 96 -35 246z" />
     <glyph glyph-name="j" unicode="j" horiz-adv-x="296" 
 d="M152 92q-60 -61 -60 -138t41 -154t131 -199q-28 151 -112 491zM12 721l131 61q4 -112 73 -370q68 -258 136 -544t68 -476l-127 -97q-227 315 -247 369q-21 54 -43 110t-17 96q11 109 57 155q47 47 104 79q-129 519 -135 617zM137 879l-133 -68q-4 96 -35 246l131 63
 q29 -122 37 -241z" />
