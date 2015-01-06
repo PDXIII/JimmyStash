@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'JimmyStash';
-  src: url('/assets/webfonts/JimmyStash-Regular.eot');
-  src: url('/assets/webfonts/JimmyStash-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/assets/webfonts/JimmyStash-Regular.woff') format('woff'), /* Modern Browsers */ url('/assets/webfonts/JimmyStash-Regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('/assets/webfonts/JimmyStash-Regular.svg#74c8e843b8349e4903d4c1b8ba504016') format('svg');
+  src: url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Regular.eot');
+  src: url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Regular.woff') format('woff'), /* Modern Browsers */ url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Regular.svg#74c8e843b8349e4903d4c1b8ba504016') format('svg');
   font-style: normal;
   font-weight: 400;
   
@@ -10,8 +10,8 @@
 }
 @font-face {
   font-family: 'JimmyStashBold';
-  src: url('/assets/webfonts/JimmyStash-Bold.eot');
-  src: url('/assets/webfonts/JimmyStash-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/assets/webfonts/JimmyStash-Bold.woff') format('woff'), /* Modern Browsers */ url('/assets/webfonts/JimmyStash-Bold.ttf') format('truetype'), /* Safari, Android, iOS */ url('/assets/webfonts/JimmyStash-Bold.svg#deed2371ab0052ec7aa9c1ad09739e4e') format('svg');
+  src: url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Bold.eot');
+  src: url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Bold.woff') format('woff'), /* Modern Browsers */ url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Bold.ttf') format('truetype'), /* Safari, Android, iOS */ url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Bold.svg#deed2371ab0052ec7aa9c1ad09739e4e') format('svg');
   font-style: normal;
   font-weight: 700;
   
@@ -20,8 +20,8 @@
 }
 @font-face {
   font-family: 'JimmyStashLight';
-  src: url('/assets/webfonts/JimmyStash-Light.eot');
-  src: url('/assets/webfonts/JimmyStash-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/assets/webfonts/JimmyStash-Light.woff') format('woff'), /* Modern Browsers */ url('/assets/webfonts/JimmyStash-Light.ttf') format('truetype'), /* Safari, Android, iOS */ url('/assets/webfonts/JimmyStash-Light.svg#258620b0d43a261fa9c44ab1f940f2e9') format('svg');
+  src: url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Light.eot');
+  src: url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Light.woff') format('woff'), /* Modern Browsers */ url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Light.ttf') format('truetype'), /* Safari, Android, iOS */ url('http://pdxiii.github.io/JimmyStash/assets/webfonts/JimmyStash-Light.svg#258620b0d43a261fa9c44ab1f940f2e9') format('svg');
   font-style: normal;
   font-weight: 200;
   
